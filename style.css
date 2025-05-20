@@ -1,0 +1,313 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'DM Sans', sans-serif;
+    background: #ffffff;
+}
+
+.top-space {
+    position: relative; 
+    width: 100%;
+    max-width: 1440px;
+    min-height: 600px; /* Increased */
+    background-color: #ffffff;
+    margin: 0 auto;
+    overflow: visible;
+    padding-top: 150px; /* Optional: creates breathing space at top */
+}
+
+
+.section-one {
+    position: absolute;
+    top: 210px;
+    left: 480px;
+    width: 480px;
+    height: 367px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    text-align: center;
+    background: #ffffff;
+}
+
+.main-heading {
+    font-weight: 700;
+    font-size: 60px;
+    line-height: 110%;
+    letter-spacing: 0;
+    color: #000743;
+    margin: 0;
+}
+
+.sub-heading {
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 160%;
+    letter-spacing: 0;
+    color: #000743;
+    margin: 0;
+}
+
+.custom-button {
+    width: 248px;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 15px;
+    padding: 13px 20px;
+    border-radius: 6px;
+    background: #FF3366;
+    box-shadow: 0px 4px 4px 0px #00000040;
+    border: 2px solid #FFFFFF;
+    color: #FFFFFF;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 120%;
+    letter-spacing: -0.02em;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.custom-button .arrow {
+    display: inline-block;
+    width: 8px;
+    height: 8px;
+    border-right: 2px solid #FFFFFF;
+    border-bottom: 2px solid #FFFFFF;
+    transform: rotate(-45deg);
+    margin-top: 2px;
+}
+
+
+ .icon1 {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    top: 92px;
+    left: 500px;
+    object-fit: contain;
+    animation: float 6s ease-in-out infinite;
+    opacity: 0.9;
+}
+
+.icon2 {
+  position: absolute;
+  width: 70px; 
+  height: 70px; 
+  top: -100px;
+  left: 600px;
+  object-fit: cover; 
+  border-radius: 10px;
+  animation: float 6s ease-in-out infinite;
+  opacity: 0.9;
+  z-index: 2;
+}
+
+.icon3 {
+  position: absolute;
+  width: 70px;
+  height: 70px;
+  top: 200px; 
+  left: 620px;
+  border-radius: 10px;
+  animation: float 6s ease-in-out infinite;
+  opacity: 0.9;
+  z-index: 2;
+}
+
+.icon4 {
+  position: absolute;
+  width: 80px;
+  height: 60px;
+  top: 200px; 
+  left: 770px; 
+  border-radius: 10px;
+  animation: float 6s ease-in-out infinite;
+  opacity: 0.9;
+  z-index: 2;
+}
+
+.icon5 {
+  position: absolute;
+  width: 80px;  
+  height: 60px; 
+  top: 350px;   
+  left: 770px;  
+  border-radius: 10px;
+  animation: float 6s ease-in-out infinite;
+  opacity: 0.9;
+  z-index: 2;
+} 
+
+
+.icon6 {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  top: 200px;
+  left: -170px; 
+  object-fit: contain;
+  animation: float 6s ease-in-out infinite;
+  opacity: 0.9;
+}
+
+.icon7 {
+  position: absolute;
+  width: 100px;
+  height: 70px;
+  top: -100px;
+  left: -170px; 
+  object-fit: cover;
+  border-radius: 10px;
+  animation: float 6s ease-in-out infinite;
+  opacity: 0.9;
+  z-index: 2;
+}
+
+.icon8 {
+  position: absolute;
+  width: 70px;
+  height: 70px;
+  top: 70px;
+  left: -350px; 
+  border-radius: 10px;
+  animation: float 6s ease-in-out infinite;
+  opacity: 0.9;
+  z-index: 2;
+}
+
+.icon10 {
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  top: 200px;
+  left: -420px; 
+  object-fit: contain;
+  animation: float 6s ease-in-out infinite;
+  opacity: 0.9;
+}
+
+.icon9 {
+   position: absolute;
+  width: 90px;
+  height: 90px;
+  top: 300px;
+  left: -350px; 
+  border-radius: 10px;
+  animation: float 6s ease-in-out infinite;
+  opacity: 0.9;
+  z-index: 2;
+}
+
+
+.icon-back {
+  position: absolute;
+  background-color: #ffffffd3;
+  border-radius: 15px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+}
+
+
+.icon1-back {
+  top: 87px;
+  left: 495px;
+  width: 60px;
+  height: 60px;
+}
+
+.icon2-back {
+  top: -105px;
+  left: 595px;
+  width: 80px;
+  height: 80px;
+}
+
+.icon3-back {
+  top: 195px;
+  left: 615px;
+  width: 80px;
+  height: 80px;
+}
+
+.icon4-back {
+  top: 195px;
+  left: 770px;
+  width: 90px;
+  height: 70px;
+}
+
+.icon5-back {
+  top: 345px;
+  left: 770px;
+  width: 90px;
+  height: 70px;
+}
+
+.icon6-back {
+  top: 195px;
+  left: -175px;
+  width: 60px;
+  height: 60px;
+}
+
+.icon7-back {
+  top: -105px;
+  left: -175px;
+  width: 110px;
+  height: 80px;
+}
+
+.icon8-back {
+  top: 65px;
+  left: -355px;
+  width: 80px;
+  height: 80px;
+}
+
+.icon9-back {
+  top: 295px;
+  left: -355px;
+  width: 100px;
+  height: 100px;
+}
+
+.icon10-back {
+  top: 195px;
+  left: -425px;
+  width: 60px;
+  height: 60px;
+}
+
+
+.floating-icon {
+  position: absolute;
+  animation: float 6s ease-in-out infinite;
+  opacity: 0.9;
+  z-index: 2; 
+}
+/* https://cssgradient.io/gradient-backgrounds/ */
+
+.section-two {
+  width: 100%; 
+  height: 600px; 
+  background: linear-gradient(90deg, rgba(255, 89, 252, 1) 0%, rgba(107, 16, 101, 1) 100%);
+  position: relative;
+  overflow: hidden;
+  margin: 0 auto;
+  margin-top: 800px; 
+}
+.section-two .bg {
+  position: absolute;
+  top: -170px; 
+  right: 0;
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  object-position: top right;
+}
+
+
