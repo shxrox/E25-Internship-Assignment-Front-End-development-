@@ -289,12 +289,33 @@ body {
   opacity: 0.9;
   z-index: 2; 
 }
+
+@keyframes float {
+  0% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(-20px);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+.floating-icon {
+  position: absolute;
+  animation: float 6s ease-in-out infinite;
+  opacity: 0.9;
+  z-index: 2;
+}
+
+
 /* https://cssgradient.io/gradient-backgrounds/ */
 
 .section-two {
   width: 100%; 
   height: 600px; 
-  background: linear-gradient(90deg, rgba(255, 89, 252, 1) 0%, rgba(107, 16, 101, 1) 100%);
+  background: linear-gradient(90deg, rgb(255, 0, 251) 0%, rgba(107, 16, 101, 1) 100%);
   position: relative;
   overflow: hidden;
   margin: 0 auto;
@@ -310,4 +331,61 @@ body {
   object-position: top right;
 }
 
+.text-block {
+  width: 900px;
+  height: 198px;
+  font-family: 'DM Sans';
+  font-weight: 1000;
+  margin-left: 30px;
+  font-size: 50px;
+  line-height: 110%;  
+  letter-spacing: 0;
+  color: #ffffff; 
+  white-space: pre-line; 
+  padding: 10px; 
+  box-sizing: border-box;
+  margin-top: 150px;
+}
 
+.cta-button {
+  width: 210px;
+  height: 45px;
+  padding: 13px 20px;
+  border: none;
+  border-radius: 6px;
+  background: #A86DB7;
+  color: #ffffff;
+  font-family: 'DM Sans', sans-serif;
+  font-size: 16px;
+  font-weight: 600;
+  cursor: pointer;
+  text-align: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 15px;
+  transition: background 0.3s ease;
+  margin-top: 60px;
+  margin-left: 30px;
+}
+
+.cta-button:hover {
+  background: #945aa2; /* slightly darker on hover */
+}
+
+
+.mobile {
+  position: absolute;
+  width: 441.05px;
+  height: 320px;
+  top: 200px;         /* moved up from 561px to 500px */
+  right: 0;           /* pushes it to the right edge */
+  transform: rotate(90deg);
+  overflow: hidden;
+}
+
+.mobile img {
+  width: 100%;
+  height: 100%;
+  object-fit: contain;
+}
