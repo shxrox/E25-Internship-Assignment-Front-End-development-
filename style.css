@@ -430,6 +430,23 @@ body {
   z-index: 3;
 }
 
+.mobile-subtext {
+  position: absolute;
+  top: 80px; 
+  left: 84%;
+  transform: translateX(-50%) rotate(-90deg);
+  width: 162px;
+  height: 63px;
+  font-family: 'DM Sans', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 130%;
+  letter-spacing: 0%;
+  color: #FFFFFF;
+  text-align: center;
+  z-index: 3;
+}
+
 .mobile,
 .mobile-2 {
   position: absolute;
@@ -598,4 +615,32 @@ padding-left: 10px;
 .arrow-left:hover,
 .arrow-right:hover {
   opacity: 0.4;
+}
+
+.right-text-block {
+  position: absolute;
+  right: 5%;
+  top: 50%;
+  transform: translateY(-50%);
+  width: 660px;
+  text-align: left;
+  padding: 40px;
+  border-radius: 12px;
+  color: #000743;
+  font-weight: bolder;
+}
+
+.title {
+  font-family: 'DM Sans', sans-serif;
+  font-weight: 700;
+  font-size: 60px;
+  line-height: 110%;
+  margin-bottom: 20px;
+}
+
+.quote {
+  font-family: 'DM Sans', sans-serif;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 160%;
 }
