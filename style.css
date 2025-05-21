@@ -309,9 +309,7 @@ body {
   z-index: 2;
 }
 
-
-/* https://cssgradient.io/gradient-backgrounds/ */
-
+/* https://cssgradient.io/ */
 .section-two {
   width: 100%; 
   height: 600px; 
@@ -379,9 +377,9 @@ body {
   width: 345px;
   height: 240px;
   border-radius: 30px;
-  top: 58%;                   /* Vertically center */
-  left: 65%;                  /* Horizontally center */
-  transform: translate(-50%, -50%) rotate(90deg); /* Perfect center with rotation */
+  top: 58%;                   
+  left: 65%;                  
+  transform: translate(-50%, -50%) rotate(90deg); 
   overflow: hidden;
   background-color: #000743;
   z-index: 5;
@@ -403,13 +401,13 @@ body {
 
 .mobile-bg {
   position: absolute;
-  top: -30px;           /* Push upward */
-  left: -10px;          /* Push left */
-  width: 600px;          /* Make it wider */
-  height: 900px;         /* Taller for full visibility */
+  top: -30px;          
+  left: -10px;          
+  width: 600px;        
+  height: 900px;         
   z-index: 1;
   opacity: 1;
-  transform: rotate(100deg) scale(1.5); /* Rotate and scale up */
+  transform: rotate(100deg) scale(1.5); 
   object-fit: cover;
 }
 
@@ -471,11 +469,133 @@ body {
   z-index: 1;
 }
 
-
-
 .mobile-frame {
   width: 100%;
   height: auto;
   z-index: 2;
   position: relative;
+}
+
+.section-3 {
+  width: 100%;
+  min-height: 100vh;  
+  background: linear-gradient(
+    90deg,
+    rgba(255, 255, 255, 1) 0%,
+    rgba(9, 9, 121, 1) 35%,
+    rgba(230, 230, 230, 1) 100%
+  );
+} 
+
+.section-3 {
+  position: relative;  
+  width: 100%;
+  min-height: 80vh;
+  background: linear-gradient(
+    90deg,
+    rgba(255, 255, 255, 1) 0%,
+    rgba(9, 9, 121, 1) 35%,
+    rgba(230, 230, 230, 1) 100%
+  );
+  overflow: hidden; 
+}
+
+.Background-image {
+  position: absolute;
+  top: 50%;         
+  left: -60%;          
+  transform: translateY(-50%); 
+  height: 100%;     
+  width: auto;     
+  z-index: 1;      
+  pointer-events: none;
+}
+
+
+ .rating-card {
+  position: absolute;
+  top: 50%;
+  left: 10%;
+  transform: translateY(-50%);
+  background-color: white;
+  padding: 40px 25px;
+  border-radius: 24px;
+  width: 200px;
+  height: 220px;
+  text-align: center;
+  z-index: 2;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  gap: 20px;
+} 
+
+.logo {
+  width: 120px;
+  margin: 0 auto;
+}
+
+.rating-row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 10px;
+}
+
+.rating-number {
+  font-size: 30px;
+  font-weight: bold;
+padding-left: 10px;
+  padding-right: 20px;
+  color: goldenrod;
+}
+
+.stars {
+  display: flex;
+  gap: 3px;
+}
+
+.star {
+  font-size: 20px;
+}
+
+.gold {
+  color: goldenrod;
+}
+
+
+.arrow-left,
+.arrow-right {
+  position: absolute;
+  width: 60px;
+  height: 60px;
+  opacity: 0.2;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 80px;
+  color: #000743;
+  background-color: transparent;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.arrow-left {
+  left: 60px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.arrow-right {
+  right: 880px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+
+.arrow-left:hover,
+.arrow-right:hover {
+  opacity: 0.4;
 }
