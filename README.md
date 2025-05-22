@@ -1,1 +1,3 @@
-# E25-Internship-Assignment-Front-End-development-
+# E25-Internship-Assignment-Front-End-development
+
+This project was completed for the E25 Internship Front-End Assignment. I selected two sections from the provided Figma design and converted them into responsive HTML pages using semantic HTML and SCSS for styling. The design was replicated with attention to accuracy, layout, and UI/UX best practices. I’ve also included configuration examples for setting up a virtual host on both Apache and Nginx. Additionally, I created a Dockerfile that sets up an Nginx container to serve the website on port 3000 with synced files from the host. All files are included in the `Internship-FE-Sharon.zip` folder.
